@@ -1,0 +1,17 @@
+.lon-quay {
+    width: 200px;
+    position: fixed;
+    animation-name: lonquay;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+}
+@keyframes lonquay {
+    from{left: 15%;
+         top: 0px;
+    }
+    to{left: 80%;
+       top:0px;
+    }
+}
